@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-21T01:40:22.434Z",
+        "reason": "Ellie's house style: pitch-site calm-photo-style.md item 2 (2026-10-19) specifies this 3.5% diagonal band texture"
+      }
+    ]
+  }
+}
