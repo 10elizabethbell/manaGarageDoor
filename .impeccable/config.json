@@ -11,6 +11,12 @@
         ],
         "createdAt": "2026-10-21T01:40:22.434Z",
         "reason": "Ellie's house style: pitch-site calm-photo-style.md item 2 (2026-10-19) specifies this 3.5% diagonal band texture"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "createdAt": "2026-10-21T01:47:59.593Z",
+        "reason": "focus-visible outline rounding, not a component radius; DESIGN.md radii cover components only"
       }
     ]
   }

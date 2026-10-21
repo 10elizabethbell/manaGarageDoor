@@ -104,7 +104,7 @@ section{padding:64px 0}
 .hero h1 .w{display:inline-block;white-space:nowrap}
 .hero h1 .c{display:inline-block;opacity:0;transform:translateX(50px);animation:letter-in 1s cubic-bezier(.34,1.56,.64,1) forwards;animation-delay:calc(var(--i) * 20ms)}
 @keyframes letter-in{to{opacity:1;transform:none}}
-.promise{font-size:clamp(17px,4.7vw,20px);line-height:1.5;color:var(--on-dark-soft);max-width:30ch}
+.promise{font-size:clamp(17px,4.6vw,19px);line-height:1.5;color:var(--on-dark-soft);max-width:30ch}
 .promise b{color:var(--on-dark);font-weight:600}
 .actions{display:grid;gap:12px;width:100%;margin-top:4px}
 
@@ -112,7 +112,7 @@ section{padding:64px 0}
 .care .wrap{display:grid;gap:32px}
 .care figure{margin:0;border-radius:var(--r-card);overflow:hidden;aspect-ratio:4/5;background:var(--field);max-width:440px}
 .care figure img{width:100%;height:100%;object-fit:cover}
-.fb{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:72px;padding:14px 16px 14px 22px;border-radius:20px;background:var(--card);color:var(--ink);text-decoration:none;font:400 clamp(18px,5vw,20px)/1.2 var(--display);max-width:440px}
+.fb{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:72px;padding:14px 16px 14px 22px;border-radius:var(--r-card);background:var(--card);color:var(--ink);text-decoration:none;font:400 clamp(19px,5.2vw,22px)/1.2 var(--display);max-width:440px}
 .fb:hover,.fb:focus-visible{outline:none;background:var(--card);box-shadow:none}
 .fb .lbl{display:flex;align-items:center;gap:14px}
 .fb .lbl svg{width:28px;height:28px;flex:none;color:var(--navy)}
@@ -132,7 +132,7 @@ section{padding:64px 0}
 /* ---------- How it works ---------- */
 .steps{list-style:none;margin:36px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
 .steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
-.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--amber);color:var(--ink);font:400 20px/1 var(--display)}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--amber);color:var(--ink);font:400 19px/1 var(--display)}
 .steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px}
 .steps span{display:block;margin-top:4px;text-wrap:pretty}
 
@@ -153,18 +153,18 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}
 .chips input:checked+label{background:var(--ink);color:#fff}
-.err{display:none;font-size:15px;color:var(--error)}
+.err{display:none;font-size:16px;color:var(--error)}
 .field.bad .err{display:block}
 .field.bad input[type=text],.field.bad input[type=text]:focus,.field.bad textarea,.field.bad textarea:focus{border-color:var(--error)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.after{font-size:15px;color:var(--soft)}
+.after{font-size:16px;color:var(--soft)}
 .sent{color:var(--ink);font-weight:600}
 .sent a,.after a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
 @media (max-width:380px){.chips label{padding:0 14px}}
 
 /* ---------- Close ---------- */
-.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--on-dark-soft)}
+.close .who{margin-top:14px;font-size:clamp(17px,4.6vw,19px);color:var(--on-dark-soft)}
 .bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--on-dark);min-height:56px;white-space:nowrap}
 .bigtel svg{width:.8em;height:.8em;flex:none;color:var(--amber)}
 .area{margin-top:22px;max-width:40ch}
@@ -190,9 +190,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
 @media (min-width:760px){
   :root{--gutter:40px}
   .top .wrap{min-height:76px}
-  .brand b{font-size:25px}
-  .brand .sub{font-size:12px}
-  .tel{font-size:20px}
+  .tel{font-size:19px}
   section{padding:96px 0}
   .hero::before{background:linear-gradient(90deg,rgba(14,35,64,.94) 0%,rgba(14,35,64,.9) 52%,rgba(14,35,64,.55) 100%)}
   .hero-photo{object-position:50% 60%}
