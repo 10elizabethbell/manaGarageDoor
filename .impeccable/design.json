@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T00:00:00Z",
+  "title": "Design System: MANA Garage Door Services LLC",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(97.3% 0.007 269)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242529",
+          "#404246",
+          "#5f6165",
+          "#808287",
+          "#a3a5aa",
+          "#c7c9ce",
+          "#eceef3"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field Mist",
+        "canonical": "oklch(94.1% 0.014 258)",
+        "tonalRamp": [
+          "#080b11",
+          "#21252c",
+          "#3e4249",
+          "#5c6269",
+          "#7d838b",
+          "#a0a5ae",
+          "#c4cad2",
+          "#e9eff8"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Door Ink",
+        "canonical": "oklch(28.7% 0.065 255)",
+        "tonalRamp": [
+          "#000925",
+          "#0c2544",
+          "#294364",
+          "#486386",
+          "#6884a9",
+          "#8aa7ce",
+          "#adccf4",
+          "#d2f1ff"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "Body Slate",
+        "canonical": "oklch(34.3% 0.038 252)",
+        "tonalRamp": [
+          "#010c1b",
+          "#172637",
+          "#334356",
+          "#526377",
+          "#728499",
+          "#94a7bd",
+          "#b8cbe2",
+          "#ddf1ff"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft Slate",
+        "canonical": "oklch(45.5% 0.032 252)",
+        "tonalRamp": [
+          "#030c18",
+          "#1a2634",
+          "#364353",
+          "#546373",
+          "#758495",
+          "#97a7b9",
+          "#bbcbde",
+          "#e0f0ff"
+        ]
+      },
+      "navy": {
+        "role": "secondary",
+        "displayName": "Garage-Door Navy",
+        "canonical": "oklch(35.7% 0.082 254)",
+        "tonalRamp": [
+          "#00072c",
+          "#01254b",
+          "#20436c",
+          "#3f638f",
+          "#5f85b3",
+          "#81a8d8",
+          "#a4cdfe",
+          "#c9f2ff"
+        ]
+      },
+      "deep": {
+        "role": "secondary",
+        "displayName": "Night Navy",
+        "canonical": "oklch(25.6% 0.061 257)",
+        "tonalRamp": [
+          "#000924",
+          "#102542",
+          "#2c4362",
+          "#4b6284",
+          "#6b84a7",
+          "#8da7cc",
+          "#b0cbf1",
+          "#d5f1ff"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "Dark-band White",
+        "canonical": "oklch(97.5% 0.006 255)",
+        "tonalRamp": [
+          "#090b0e",
+          "#232528",
+          "#404245",
+          "#5f6165",
+          "#808286",
+          "#a2a5a9",
+          "#c6c9cd",
+          "#eceff3"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "Dark-band Mist",
+        "canonical": "oklch(87.4% 0.030 256)",
+        "tonalRamp": [
+          "#040b18",
+          "#1b2634",
+          "#374352",
+          "#566273",
+          "#778395",
+          "#99a6b8",
+          "#bdcadd",
+          "#e2f0ff"
+        ]
+      },
+      "amber": {
+        "role": "primary",
+        "displayName": "Safety Amber",
+        "canonical": "oklch(78.4% 0.159 73)",
+        "tonalRamp": [
+          "#2c0000",
+          "#4e0200",
+          "#712a00",
+          "#954c00",
+          "#ba6f00",
+          "#e09200",
+          "#ffb73d",
+          "#ffdc69"
+        ]
+      },
+      "amber-2": {
+        "role": "primary",
+        "displayName": "Bright Amber",
+        "canonical": "oklch(83.6% 0.149 77)",
+        "tonalRamp": [
+          "#280000",
+          "#4a0d00",
+          "#6c3000",
+          "#8f5100",
+          "#b37300",
+          "#d8970d",
+          "#ffbb48",
+          "#ffe171"
+        ]
+      },
+      "amber-ink": {
+        "role": "primary",
+        "displayName": "Amber Ink",
+        "canonical": "oklch(49.4% 0.109 67)",
+        "tonalRamp": [
+          "#250000",
+          "#451300",
+          "#673300",
+          "#8a5300",
+          "#ae7431",
+          "#d39756",
+          "#f9bb7a",
+          "#ffe19e"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Blue",
+        "canonical": "oklch(54.9% 0.169 256)",
+        "tonalRamp": [
+          "#010050",
+          "#001374",
+          "#003a98",
+          "#035dbe",
+          "#3381e5",
+          "#58a5ff",
+          "#7ccbff",
+          "#a1f1ff"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "oklch(50.1% 0.178 29)",
+        "tonalRamp": [
+          "#3a0000",
+          "#610000",
+          "#880000",
+          "#b0221b",
+          "#d84c3f",
+          "#ff7161",
+          "#ff9784",
+          "#ffbda8"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; bounces in letter by letter."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Band headings (h2)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service rows, step titles, buttons, link rows."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One supporting paragraph under a heading, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and inputs."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels and legends."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(8,24,46,.3)",
+        "purpose": "Floating text circle only."
+      }
+    ],
+    "textures": [
+      {
+        "name": "band-lines",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Night Navy bands and footer."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger, from opacity 0 translateX(50px)",
+        "purpose": "Hero H1 only; skipped under reduced motion."
+      },
+      {
+        "name": "rise",
+        "value": "opacity/transform .4s ease-out, 12px",
+        "purpose": "Fade-up for elements that start below the first screen."
+      },
+      {
+        "name": "float-in",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Floating text circle slide-up."
+      },
+      {
+        "name": "state",
+        "value": ".2s (buttons, arrows), .15s (fields, chips)",
+        "purpose": "Colour and border state changes."
+      },
+      {
+        "name": "press",
+        "value": "transform .12s, scale(.98)",
+        "purpose": "Button press."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "374px"
+      },
+      {
+        "name": "tablet",
+        "value": "760px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Amber pill with ink text; the main action in the hero and the form.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Tell us what's wrong</a>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-btn-primary{background:var(--amber);color:var(--ink);border-color:var(--amber)} .ds-btn-primary:hover{background:var(--amber-2);border-color:var(--amber-2)} .ds-btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined pill for the secondary action on dark grounds only.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\">See what we fix</a></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:999px;font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s} .ds-btn:active{transform:scale(.98)} .ds-dark{background:var(--deep);padding:24px} .ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(244,247,251,.7)} .ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)} .ds-btn-ghost:focus-visible{outline:3px solid var(--amber);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Borderless Field Mist input with a Cal Sans label, on the white form card.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-label\" for=\"ds-n\">Your name</label><input class=\"ds-input\" id=\"ds-n\" placeholder=\"First name is fine\"></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-card{background:var(--card);border-radius:24px;padding:24px;display:grid;gap:8px} .ds-label{font:400 17px/1.2 var(--display);color:var(--ink)} .ds-input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:10px;padding:13px 14px;min-height:52px;transition:border-color .15s} .ds-input::placeholder{color:var(--soft)} .ds-input:hover,.ds-input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill toggles for job type and timing; selected fills Door Ink.",
+      "html": "<div class=\"ds-chips\"><label class=\"ds-chip\">Door repair</label><label class=\"ds-chip ds-on\">Springs</label><label class=\"ds-chip\">Opener</label></div>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-chips{display:flex;flex-wrap:wrap;gap:10px;background:#fff;padding:20px} .ds-chip{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:999px;background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s} .ds-chip:hover{border-color:var(--focus)} .ds-chip.ds-on{background:var(--ink);color:#fff} .ds-chip.ds-on:hover{border-color:transparent;outline:2px solid var(--focus);outline-offset:2px}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "",
+      "description": "Slim paper header: wordmark left, tap-to-call number right.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>MANA</b><span>Garage Door Services</span></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>(302) 585-6701</a></header>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px;background:var(--paper);color:var(--ink)} .ds-brand{display:flex;flex-direction:column;text-decoration:none;color:inherit;line-height:1} .ds-brand b{font:400 22px/1 var(--display);letter-spacing:.04em} .ds-brand span{font:600 11.5px/1 var(--text);letter-spacing:.07em;text-transform:uppercase;color:var(--soft);margin-top:5px} .ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 17px/1 var(--display);text-decoration:none;color:inherit} .ds-tel svg{color:var(--amber-ink)} .ds-tel:hover{color:var(--amber-ink)} .ds-tel:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Service Rows",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "Full-width link rows on navy; only the arrow circle changes on hover.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\">Spring repair &amp; replacement<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\">Opener repair &amp; replacement<span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></li></ul>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-rows{list-style:none;margin:0;padding:8px 20px;background:var(--navy)} .ds-rows li{border-top:1px solid rgba(255,255,255,.14)} .ds-rows li:last-child{border-bottom:1px solid rgba(255,255,255,.14)} .ds-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;padding:10px 0;color:var(--on-dark);text-decoration:none;font:400 21px/1.2 var(--display)} .ds-row:focus-visible{outline:none} .ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:var(--on-dark);transition:background-color .2s,color .2s} .ds-row:hover .ds-arrow{background:var(--amber);color:var(--ink)} .ds-row:focus-visible .ds-arrow{background:var(--amber);color:var(--ink);outline:3px solid var(--amber);outline-offset:3px}"
+    },
+    {
+      "name": "Numbered Steps",
+      "kind": "custom",
+      "refersTo": "step-number",
+      "description": "Amber counter discs with Cal Sans titles on the textured deep band.",
+      "html": "<ol class=\"ds-steps\"><li><div><b>Call or text us.</b><span>Tell us what the door is doing.</span></div></li><li><div><b>We come and look.</b><span>You hear what it needs before we start.</span></div></li></ol>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-steps{list-style:none;margin:0;padding:28px 20px;display:grid;gap:24px;counter-reset:s;background-color:var(--deep);background-image:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);color:var(--on-dark-soft);font:16px/1.7 var(--text)} .ds-steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;counter-increment:s} .ds-steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--amber);color:var(--ink);font:400 20px/1 var(--display)} .ds-steps b{display:block;font:400 21px/1.2 var(--display);color:var(--on-dark);margin-top:4px} .ds-steps span{display:block;margin-top:4px}"
+    },
+    {
+      "name": "Eyebrow Pill (owner exception)",
+      "kind": "chip",
+      "refersTo": "",
+      "description": "Quiet label pill above the hero H1 and a few section heads; Ellie's documented exception. No hover, arrow, shadow or amber fill.",
+      "html": "<p class=\"ds-eyebrow\">Repair and installation</p>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-eyebrow{display:inline-flex;align-items:center;gap:10px;margin:0;font:500 14px/1 var(--text);letter-spacing:.02em;color:var(--ink);background:rgba(18,43,74,.06);padding:9px 14px;border-radius:999px} .ds-eyebrow::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--amber)}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-text",
+      "description": "60px amber sms: circle, bottom right; the only lifted element.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text MANA\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#f4f6fb;--card:#fff;--field:#e6ecf5;--ink:#122b4a;--soft:#4a5868;--navy:#1a3d66;--deep:#0e2340;--on-dark:#f4f7fb;--on-dark-soft:#c9d7ea;--amber:#f5a623;--amber-2:#ffbb48;--amber-ink:#8a5300;--focus:#1f6fd1;--error:#b3261e;--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif} .ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--amber);color:var(--ink);box-shadow:0 10px 28px rgba(8,24,46,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)} .ds-float:hover{background:var(--amber-2)} .ds-float:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Calm Service Call",
+    "overview": "The site behaves like a good tradesperson on the phone: unhurried, plain, and clear about what happens next. It is Ellie's house calm band style applied to a garage-door company: an off-white paper ground, garage-door navy and deep navy bands, and one safety-amber accent that only ever appears as a fill or as a dedicated darker ink. Full-bleed bands alternate light and dark so each section is obvious on a phone, and nothing on the page competes with the two actions that matter, calling and texting.\n\nDensity is low and phone-first. Each band carries one heading, at most one short lede, and one job (the care promise, the service list, three steps, the form, the number). Shapes are soft and borderless; depth comes from band colour, not shadow. Motion is limited to three owner-chosen devices: the hero H1 letter bounce-in, a single 12px fade-up for content below the first screen, and the floating text circle sliding in.\n\nNo logo exists, so the palette is chosen rather than extracted: navy for the door, amber for the safety-yellow of a garage door's warning label.",
+    "keyCharacteristics": [
+      "Paper, navy, deep navy, one amber accent; the ground is never black.",
+      "Full-bleed alternating bands (paper, navy, deep-with-texture) as the only structural device.",
+      "One display webfont (Cal Sans, weight 400) over the system body stack at 16/1.7.",
+      "Soft borderless forms: 24px cards, 10px fields, full pills.",
+      "Flat surfaces; the only shadow belongs to the floating text circle."
+    ],
+    "rules": [
+      {
+        "name": "The Fill-Only Amber Rule",
+        "body": "Amber is a fill. Text on amber is Door Ink, never white; amber as text on a light ground switches to Amber Ink. Plain amber text appears only on navy, deep or the hero overlay.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Navy Band Rule",
+        "body": "Dark bands use exactly two navies: Garage-Door Navy plain, Night Navy with the diagonal line texture (`repeating-linear-gradient(135deg, transparent 0 22px, rgba(255,255,255,.035) 22px 23px)`). The texture stays at about 3.5% white so it never reads as lines through text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Separate Focus Rule",
+        "body": "Focus and form-hover outlines use Focus Blue on light grounds, distinct from the amber fill, so a focused amber button still shows a ring. On dark grounds the ring turns amber.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Weight Rule",
+        "body": "Cal Sans is always weight 400; hierarchy comes from size and band colour, never from bolding the display face. Bold (600) is reserved for short emphasis inside body text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Accent Phrase Rule",
+        "body": "A heading may set its last phrase in the accent colour (\"What we fix.\", \"How it works.\", the hero's \"Fixed in DE, MD, PA & NJ.\"): amber on dark, Amber Ink on light. One phrase per heading, at the end.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Band Rule",
+        "body": "Cards, rows, buttons and fields carry no shadow at rest or on hover. If something needs separation, change the ground colour.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do alternate full-bleed bands (paper, navy, deep-with-texture) so every new section is obvious on a phone.",
+      "Do put text on amber in Door Ink, and switch to Amber Ink whenever amber must be text on a light ground.",
+      "Do set every heading, button, row and label in Cal Sans 400, and body in the system stack at 16/1.7.",
+      "Do keep fields on Field Mist inside white cards, and keep the invalid border red even when focused.",
+      "Do outline form controls in Focus Blue on hover and focus; use offset outlines (not borders) on filled chips.",
+      "Do use the 12px, 400ms fade-up only for elements that start below the first screen, and leave everything visible without JS or under reduced motion.",
+      "Do keep tap targets at 44px or more."
+    ],
+    "donts": [
+      "Don't put white text on amber, or plain amber text on paper or white.",
+      "Don't add shadows to cards, rows, buttons or fields; the floating text circle is the only lifted element.",
+      "Don't animate any heading other than the hero H1.",
+      "Don't add a second accent colour, a second body font, or a bold Cal Sans weight.",
+      "Don't let an eyebrow pill take a hover state, an arrow, a shadow or a full amber fill.",
+      "Don't put two controls that do the same thing in view at once (the floating circle hides over the form).",
+      "Don't raise the diagonal band texture above about 4% white."
+    ]
+  }
+}

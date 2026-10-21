@@ -3,7 +3,7 @@
 **Live:** https://10elizabethbell.github.io/manaGarageDoor/ · **Repo:** https://github.com/10elizabethbell/manaGarageDoor · **Built:** 2026-10-20 from Muse brief of 2026-10-20 (Facebook group "Best New Jersey General Contractor" ad)
 
 ## What's built
-- One page, calm band style: paper header (door mark + MANA wordmark, tap-to-call (302) 585-6701 top right) → photo hero under deep navy → "We treat your door like it's on our own house" (care copy, example photo, three claims, Facebook row) → "What we fix" (all 10 services as rows on navy) → "How it works" (3 steps, deep navy with line texture) → "Tell us what's wrong" form → closing band with name, area and big phone number → footer.
+- One page, calm band style: paper header (MANA wordmark, tap-to-call (302) 585-6701 top right) → photo hero under deep navy → "We treat your door like it's our own" (care copy, example photo, Facebook row) → "What we fix" (all 10 services as rows on navy) → "How it works" (3 steps, deep navy with line texture) → "Tell us what's wrong" form → closing band with name, area and big phone number → footer (name + Facebook; the number is left out there because the closing band right above already shows it).
 - Palette (chosen, no logo exists): paper #f4f6fb, navy #1a3d66, deep navy #0e2340, safety amber #f5a623 as the only accent (fills; #8a5300 when it must be text on light). Cal Sans headings, system body.
 - Hero: H1 "Garage door stuck? Fixed in DE, MD, PA & NJ." bounces in letter by letter; eyebrow "Emergency garage door service"; two buttons ("Tell us what's wrong" → form, "See what we fix" → services). No Call button (the number sits top right).
 - Contact: every service row jumps to the form and pre-ticks its chip (Emergency pre-ticks "Right away"). The form composes a text to +1 302-585-6701; under it a "Prefer to talk? Call" line, swapped for a "Didn't open your messages?" note after submitting. The 60px floating text circle shows after the hero and hides over the form.
@@ -11,7 +11,7 @@
 
 ## Assumptions I made
 - **Colours:** no logo or brand colours anywhere, so navy + safety amber were chosen to read "garage door / trade".
-- **Logo / favicon:** none exists. I drew a small mark (a house gable over an amber sectional door) for the header, favicon and iPhone icon. Replace with a real logo if MANA has one.
+- **Logo / favicon:** none exists. The header is the MANA wordmark in Cal Sans; favicon and iPhone icon are an amber "M" on navy. Replace with a real logo if MANA has one.
 - **"We" voice:** it's an LLC and the poster (Maria Pinzon-castro) may be the owner or office; I didn't name a person on the page.
 - **Care copy** ("we work on it carefully, tell you plainly what it needs…", "We test it with you before we leave", "You hear what it needs before we start") is a statement of how they treat customers, not a sourced fact. Check it with the owner.
 - **Area:** the four states verbatim from the ad. Example town in the form placeholder is "Dover, DE" (302 is a Delaware area code).
@@ -44,7 +44,9 @@ Neither generated image is labelled as MANA's work anywhere on the page.
 - **Signature motion (runner-up worlds):** 1) the hero H1 sits on a sectional door that rolls up panel by panel as you scroll or drag, revealing the page — best fit; 2) a torsion spring that winds as you scroll; 3) welding sparks off the metal fabrication line; 4) an opener light that clicks on when the form is sent; 5) a "night call" hero with porch lights flicking on for the emergency angle.
 - Work-photo cards and before/after sliders once real photos exist.
 - A short "Is it an emergency?" panel (door stuck open, snapped spring, car trapped) that pre-fills the text with "Right away".
-- Impeccable findings left on purpose (owner-chosen calm style): eyebrow pills, repeating-gradient band texture, H1 letter bounce-in, floating text circle, Cal Sans.
+- A three-line claims list (Emergency service / Repairs and new doors / Metal fabrication too) was cut from the care band because it repeated the services list; bring it back with real trust facts (licensed, insured, years) once the owner supplies them.
+- Desktop care band has some empty space under the Facebook row; a real work photo pair or a review would fill it.
+- Impeccable findings left on purpose (owner-chosen calm style): eyebrow pills, repeating-gradient band texture, H1 letter bounce-in, floating text circle, Cal Sans. The detector's "flat type hierarchy" warning is left standing (the small sizes are 14–17px body variants); the stripes rule is suppressed for index.html in `.impeccable/config.json` as house style.
 
 ## Not verified
 - Real-device touch, and the real SMS handoff on iOS/Android and inside Facebook's in-app browser.
